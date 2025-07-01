@@ -2,38 +2,45 @@
 
 Задача 2.
 -----------------------
-Отговор:
 ```
   736
 ```
-Решение: виж /images/problem2.jpeg
+Виж /images/problem2.jpeg
 
 Задача 3.
 ------------------------
-Решение: виж /images/problem3.jpeg
+Виж /images/problem3.jpeg
 
 Задача 4.
 ------------------------
 ```
 KEY: QIKLOP
-TEXT: QPYANRVBSJNRUVJDET<bold>GESTURE</bold>GCJXTC
+TEXT: QPYANRVBSJNRUVJDETGESTUREGCJXTC
 
 KEY: DKWKNS
-TEXT: DNMBOOIDEIMUHTXEFQT**GESTURE**QKYQP
+TEXT: DNMBOOIDEIMUHTXEFQTGESTUREQKYQP
 
 KEY: AXYWMR
-TEXT: GAKPPPFQGULTKGVSGRQT**GESTURE**YZRM
+TEXT: GAKPPPFQGULTKGVSGRQTGESTUREYZRM
 
 KEY: BUVYYQ
-TEXT: FDNNDQGNDWXSJJYQUSRQD**GESTURE**NSN
+TEXT: FDNNDQGNDWXSJJYQUSRQDGESTURENSN
 
 KEY: CVSDAC
-TEXT: ECQIBEHOABZEIIBLSGSRAL**GESTURE**GO
+TEXT: ECQIBEHOABZEIIBLSGSRALGESTUREGO
 
 KEY: QWTAUE
-TEXT: QBPLHCVPBYTGUHAOYEGSBIA**GESTURE**C
+TEXT: QBPLHCVPBYTGUHAOYEGSBIAGESTUREC
 
 KEY: OKUBRR
-TEXT: SNOKKPTDCZQTWTZNBREGCJXT**GESTURE**
+TEXT: SNOKKPTDCZQTWTZNBREGCJXTGESTURE
 ```
-Решение: виж /src/autokey.py. В този файл е реализиран дешифратор за Автоключ, който пробва всяка възможна позиция на "GESTURE" и проверява дали тя води до еднозначно разшифриране. 
+Виж /src/autokey.py. В този файл е реализиран дешифратор за Автоключ, който пробва всяка възможна позиция на "GESTURE" и проверява дали тя води до еднозначно разшифриране. 
+
+Задача 6.
+---------------------------
+Линейният регистър е следният:
+```
+f(b0, b1, b2, b3, b4) = (b4, b1, b2, b3, b3 + b4)
+```
+В файла /src/registry.c е направена проверка, че той има период 21. Резултатът от тази програма е в /results/problem6.txt.
