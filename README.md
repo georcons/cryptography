@@ -41,7 +41,7 @@ TEXT: SNOKKPTDCZQTWTZNBREGCJXTGESTURE
 ---------------------------
 Линейният регистър е следният:
 ```
-f(b0, b1, b2, b3, b4) = (b4, b1, b2, b3, b3 + b4)
+f(b0, b1, b2, b3, b4) = (b4, b0, b1, b2, b3 + b4)
 ```
 Във файла /src/registry.c е направена проверка, че той има период 21. Резултатът от тази програма е в /results/problem6.txt.
 
@@ -86,4 +86,4 @@ s = 94
 ```
 312
 ```
-Тук отново е ползвана имплетентацията на алгоритъма на Pohlig-Hellman от /src/pohlig-hellman.py.
+Тук отново е ползвана имплементацията на алгоритъма на Pohlig-Hellman от /src/pohlig-hellman.py.
