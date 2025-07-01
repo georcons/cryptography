@@ -1,0 +1,2 @@
+Задача 9.
+Discrete logarithm of 66 with base 2 in Z_101* is 83.

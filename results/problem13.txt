@@ -1,0 +1,2 @@
+Задача 13.
+Discrete logarithm of 135 with base 3 in Z_353* is 312.

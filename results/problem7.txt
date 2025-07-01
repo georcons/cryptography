@@ -1,0 +1,7 @@
+Round 0: A=10, B=1101 (101101)
+Round 1: f1(1101)=00; -> next A=1101, next B=10 (110110)
+Round 2: f2(0110)=01; -> next A=0110, next B=10 (011010)
+Round 3: f3(1010)=00; -> next A=1010, next B=01 (101001)
+Round 4: f4(1001)=01; -> next A=1001, next B=11 (100111)
+
+Ciphertext: 100111
