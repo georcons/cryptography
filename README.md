@@ -7,11 +7,11 @@
 ```
   736
 ```
-Виж /images/problem2.jpeg
+Виж /images/problem2.jpg
 
 Задача 3.
 ------------------------
-Виж /images/problem3.jpeg
+Виж /images/problem3.jpg
 
 Задача 4.
 ------------------------
@@ -62,7 +62,7 @@ Ciphertext: 100111
 
 Задача 8.
 -------------------------
-Виж /images/problem8.jpeg.
+Виж /images/problem8.jpg.
 
 Задача 9.
 ------------------------
@@ -96,4 +96,4 @@ s = 94
 ```
 (2061, 4715, 3066)
 ```
-Виж /images/problem14.jpeg.
+Виж /images/problem14.jpg.
